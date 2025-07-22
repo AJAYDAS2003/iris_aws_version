@@ -1,0 +1,6 @@
+[core]
+    remote = remote_
+['remote "myremote"']
+    url = s3://your-bucket-name/dvcstore
+['remote "remote_"']
+    url = s3://ajay-iris-versioning/dvcstore
