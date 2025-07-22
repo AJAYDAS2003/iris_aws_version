@@ -25,4 +25,6 @@ def evaluate_model(input_path, model_path):
         raise e
 
 if __name__ == "__main__":
-    evaluate_model("data/processed/iris_features.csv", "models/model.pkl")
+    # Same as before, but new input/model paths
+    evaluate_model("data/processed/iris_features_v2.csv", "models/model_v2.pkl")
+
